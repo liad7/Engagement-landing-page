@@ -3,8 +3,14 @@ import Image from "next/image"
 
 export function ServiceList() {
     return (
-        <div>
-            <h3 className="text-4xl">?מה אנחנו מציעים</h3>
+        <div className="px-3 md:p-4">
+            <h3 className="text-4xl text-right">:קצת עלינו</h3>
+            <hr className="w-24 md:w-30 ml-auto border-t-4 my-2 border-[#dab200]" />
+            <div className="text-right text-xl mb-20">
+                <p>להוסיף פה תוכן</p>
+            </div>
+            <h3 className="text-4xl text-right">?מה אנחנו מציעים</h3>
+            <hr className="w-24 md:w-30 ml-auto border-t-4 my-2 border-[#dab200]" />
             <div className="lg:flex">
 
                 <div className="flex-1 mb-16 mx-4">

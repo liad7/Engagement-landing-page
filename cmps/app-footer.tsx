@@ -17,14 +17,17 @@ export function AppFooter() {
                 />
 
                 <div className="relative text-right pr-4 pt-32">
-                        <h3 className="text-4xl mb-4">? מה אנחנו מציעים</h3>
-                        <p>מגוון סוגי הצעות <GemIcon className="inline" /></p>
-                        <p> שירות מקצועי ואדיב <GemIcon className="inline" /></p>
-                        <p>הגעה לכל מקום בארץ <GemIcon className="inline" /></p>
-                        <p>מחירים נוחים לכל כיס <GemIcon className="inline" /></p>
-                        <p>שיחות ייעוץ והכוונה <GemIcon className="inline" /></p>
-                        <p>צילום מצלמהֿֿ/רחפן <GemIcon className="inline" /></p>
-                        <p>הפקה עם זיקוקים <GemIcon className="inline" /></p>
+                        <h3 className="text-4xl mb-4 text-[#ffd935]">? מה אנחנו מציעים</h3>
+
+                        <p className="text-white text-lg">מגוון סוגי הצעות <GemIcon className="inline text-[#6a0cad]" /></p>
+                        <p className="text-white text-lg"> שירות מקצועי ואדיב <GemIcon className="inline text-[#6a0cad]" /></p>
+                        <p className="text-white text-lg">הגעה לכל מקום בארץ <GemIcon className="inline text-[#6a0cad]" /></p>
+                        <p className="text-white text-lg">מחירים נוחים לכל כיס <GemIcon className="inline text-[#6a0cad]" /></p>
+                        <p className="text-white text-lg">שיחות ייעוץ והכוונה <GemIcon className="inline text-[#6a0cad]" /></p>
+                        <p className="text-white text-lg">צילום מצלמהֿֿ/רחפן <GemIcon className="inline text-[#6a0cad]" /></p>
+                        <p className="text-white text-lg">הפקה עם זיקוקים <GemIcon className="inline text-[#6a0cad]" /></p>
+
+                        <button className="w-max rounded-3xl bg-[#ffd935] text-sm duration-300 transition-all mt-4 px-8 py-3 hover:bg-[#dab200]">אני מעוניין</button>
                 </div>
             </div>
         </footer>
