@@ -58,3 +58,12 @@ body,
 .slideshowDot.active {
   background-color: #6a0dad;
 }
+
+.modal {
+  background-color: red;
+  position: fixed;
+  direction: rtl;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

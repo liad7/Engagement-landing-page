@@ -1,6 +1,11 @@
 import Image from "next/image"
+import { MouseEventHandler } from "react"
 
-export function AppHeader() {
+type Props = {
+    toggleModal: MouseEventHandler<HTMLButtonElement>
+}
+
+export function AppHeader({ toggleModal }: Props) {
     return (
         <header>
             <div className="relative overflow-hidden w-full h-[400px] md:h-[650px]">
@@ -12,7 +17,8 @@ export function AppHeader() {
             </div>
             <p className="absolute center w-max top-4 text-xl">ההצעה שתמיד רציתם <span className="text-[#ffd935]">במחיר חלומי</span></p>
 
-            <button className="absolute center w-max top-36 md:top-1/3 rounded-3xl bg-[#ffd935] text-sm duration-300 transition-all px-8 py-4 hover:bg-[#dab200]">אני רוצה הצעת מחיר</button>
+            <button onClick={toggleModal}
+                className="absolute center w-max top-36 md:top-1/3 rounded-3xl bg-[#ffd935] text-sm duration-300 transition-all px-8 py-4 hover:bg-[#dab200]">אני רוצה הצעת מחיר</button>
         </header>
     )
 }
