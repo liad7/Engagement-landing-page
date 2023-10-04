@@ -18,7 +18,7 @@ export function AppHeader({ toggleModal }: Props) {
             <p className="absolute center w-max top-4 text-xl">ההצעה שתמיד רציתם <span className="text-[#ffd935]">במחיר חלומי</span></p>
 
             <button onClick={toggleModal}
-                className="absolute center w-max top-36 md:top-1/3 rounded-3xl bg-[#ffd935] text-sm duration-300 transition-all px-8 py-4 hover:bg-[#dab200]">אני רוצה הצעת מחיר</button>
+                className="absolute center w-max top-36 md:top-1/3 rounded-full bg-[#ffd935] text-sm duration-300 transition-all px-8 py-4 hover:bg-[#dab200]">אני רוצה הצעת מחיר</button>
         </header>
     )
 }

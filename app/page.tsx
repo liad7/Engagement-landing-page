@@ -27,8 +27,8 @@ export default function Home() {
 
       <AppFooter toggleModal={toggleModal} />
 
-      {isModalOpen && <Modal toggleModal={toggleModal}/>}
-
+      {/* {isModalOpen && <Modal toggleModal={toggleModal}/>} */}
+      <Modal toggleModal={toggleModal} isModalOpen={isModalOpen}/>
     </center>
   )
 }
